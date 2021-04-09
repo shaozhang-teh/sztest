@@ -1,0 +1,26 @@
+[
+    {
+        "ParameterKey": "AvailabilityZones",
+        "ParameterValue": "$[taskcat_getaz_2]"
+    },
+    {
+        "ParameterKey": "EmailAddress",
+        "ParameterValue": "teh_shaozhang@yahoo.com.sg"
+    },
+    {
+        "ParameterKey": "KeyPairName",
+        "ParameterValue": "szgic"
+    },
+    {
+        "ParameterKey": "WebserverCIDR",
+        "ParameterValue": "0.0.0.0/0"
+    },
+    {
+        "ParameterKey": "QSS3KeyPrefix",
+        "ParameterValue": "szgic/"
+    },
+    {
+        "ParameterKey": "QSS3BucketName",
+        "ParameterValue": "$[taskcat_autobucket]"
+    }
+]
