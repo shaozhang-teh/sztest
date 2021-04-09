@@ -9,7 +9,7 @@ global:
     - us-east-1
     - us-west-1
     - us-west-2
-  reporting: true
+  reporting: false
 tests:
   lab-master-vpc:
     parameter_input: szgic.json 
